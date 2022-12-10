@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print a combination of three digits
+ * main - print combination of three digit
  *
  * Return: Always 0
  */
@@ -10,10 +10,10 @@ int main(void)
 	int g = 48;
 	int e = 48;
 
-	while  (f < 58)
+	while (f < 58)
 	{
 		g = 48;
-		while  (g < 58)
+		while (g < 58)
 		{
 			e = 48;
 			while (e < 58)
@@ -23,7 +23,7 @@ int main(void)
 					putchar(f);
 					putchar(g);
 					putchar(e);
-					if (f != 55 && g != 56 && e != 57)
+					if (f != 57 && f != 57 && f != 57)
 					{
 						putchar(',');
 						putchar(' ');
@@ -36,5 +36,5 @@ int main(void)
 	f++;
 	}
 	putchar('\n');
-	return (0);
+	return(0);
 }
