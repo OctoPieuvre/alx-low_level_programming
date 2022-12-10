@@ -9,7 +9,7 @@ int main(void)
 	int f = 48;
 	int g = 48;
 
-	while (f < 58);
+	while (f < 58)
 	{
 		g = 48;
 		while (g < 58)
