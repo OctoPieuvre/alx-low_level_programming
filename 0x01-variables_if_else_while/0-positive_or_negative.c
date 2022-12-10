@@ -2,23 +2,18 @@
 #include <stdio.h>
 #include <time.h>
 
-/*
- * main - Determine if n is positive negative or null
+/**
+ * main - Determines if n is positive negative or null
  *
  * Return: Always 0
  */
 
 int main(void)
-
 {
-
 	int n;
-
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
-
- 	if (n > 0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
