@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- *
+ * main - print double digits
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i, e, g, h, op1, op2;
-	i = e = g = h = 48;
 
+	i = e = g = h = 48;
 	while (h < 58)
 	{
 		g = 48;
