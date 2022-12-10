@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <temps.h>
+#include <time.h>
 
 /*
  * main - Determine if n is positive negative or null
@@ -14,7 +14,7 @@ int main(void)
 
 	int n;
 
-	Srand(temps(0));
+	Srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
 
