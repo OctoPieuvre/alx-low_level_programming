@@ -6,23 +6,27 @@
  */
 int main(void)
 {
-	int f, g;
+	int f = 48;
+	int g = 48;
 
-	for (f = 48; f < 58; f++)
+	while (f < 58);
 	{
-		putchar(f);
-		for (g = 48; g < 58; g++)
+		g = 48;
+		while (g < 58)
 		{
-			if (g != f)
+			if (f != g && f < g)
 			{
+				putchar(f);
 				putchar(g);
+				if (f != 57 && g != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			if (f != 57)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+		g++;
 		}
+	f++;
 	}
 	putchar('\n');
 	return (0);
