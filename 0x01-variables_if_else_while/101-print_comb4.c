@@ -26,7 +26,7 @@ int main(void)
 					if (f != 55 && g != 56 && e != 57)
 					{
 						putchar(',');
-						putchar)' ');
+						putchar(' ');
 					}
 				}
 			e++;
