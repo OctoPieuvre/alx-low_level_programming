@@ -2,7 +2,7 @@
 
 /**
  * main - prints natural nimbers below 1024
- * 
+ *
  * Return: Always 0
  */
 
