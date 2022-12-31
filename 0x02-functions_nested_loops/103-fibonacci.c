@@ -11,18 +11,24 @@ int main(void)
 {
 	long int fib1, fib2, sum;
 
-	fib1 = 1;
-	fib2 = 2;
+	fib1 = 0;
+	fib2 = 1;
 	sum = 0;
 
 	while (sum <= 4000000)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
-		printf(", ");
 		fib1 = fib2;
 		fib2 = sum;
+		if (sum > 4000000)
+		{
+			printf("\n");
+		}
+		else
+		{
+			printf(", ");
+		}
 	}
-	printf("\n");
 	return (0);
 }
