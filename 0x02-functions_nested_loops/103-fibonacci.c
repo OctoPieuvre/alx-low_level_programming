@@ -13,22 +13,18 @@ int main(void)
 
 	fib1 = 0;
 	fib2 = 1;
-	sum = 0;
+	afn = sum = 0;
 
 	while (sum <= 4000000)
 	{
 		sum = fib1 + fib2;
-		printf("%lu", sum);
 		fib1 = fib2;
 		fib2 = sum;
-		if (sum > 4000000)
+		if ((fib1 % 2) == 0)
 		{
-			printf("\n");
-		}
-		else
-		{
-			printf(", ");
+			afn = afn + fib1;
 		}
 	}
+	printf("%ld", afn);
 	return (0);
 }
