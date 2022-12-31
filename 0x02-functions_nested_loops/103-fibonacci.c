@@ -25,6 +25,6 @@ int main(void)
 			afn = afn + fib1;
 		}
 	}
-	printf("%ld", afn);
+	printf("%ld\n", afn);
 	return (0);
 }
