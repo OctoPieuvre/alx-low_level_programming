@@ -10,29 +10,20 @@
 
 char *leet(char *s)
 {
-	int i, j, k;
+	int i, j;
 
+	char *a = aAeEoOtTlL;
+	char *b = 4433007711;
 
-
-
-	char l[] = oOlLeEaAtT;
-	char e[] = 0011334477;
-
-	i = 0;
-	while (s[i] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		j = 0;
-		k = 0;
-		while (l[j] != '\0')
+		for (j = 0; j < 10; j++)
 		{
-			if (s[i] == l[j])
+			if (s[i] == a[j])
 			{
-				k = j;
-				s[i] = e[k];
+				s[i] = b[j];
 			}
-			j++;
 		}
-		i++;
 	}
 	return (s);
 }
