@@ -40,5 +40,5 @@ int _atoi(char *s)
 	{
 		res = sum;
 	}
-	return res;
+	return (res);
 }
