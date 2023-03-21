@@ -1,4 +1,5 @@
 #include <main.h>
+#include <stdio.h>
 /**
  * _memset - fill a memory with a constant byte
  * @b: constant byte
