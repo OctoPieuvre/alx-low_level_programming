@@ -13,9 +13,8 @@ void print_chessboqrd(char (*a)[8])
 	{
 		for (int j = 0; j < 8; j++)
 		{
-			printf("%c ", a[i][j]);
+			putchar(a[i][j]);
 		}
-		printf("\n");
+		putchar('\n');
 	}
-	return (0);
 }
