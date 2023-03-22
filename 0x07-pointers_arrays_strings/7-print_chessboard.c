@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-void print_chessboqrd(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
 	for (int i = 0; i < 8; i++)
 	{
